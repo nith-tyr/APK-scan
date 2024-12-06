@@ -45,7 +45,7 @@ jobs:
           path: mobsf-report.pdf
 
       - name: Upload MobSF Analysis JSON Result
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: mobsf-report.json
           path: mobsf-report.json  # Fixed the typo here (was 'jsonevery')
